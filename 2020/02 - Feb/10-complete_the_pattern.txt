@@ -1,10 +1,12 @@
 // Source: Code Wars - https://www.codewars.com/kata/5572f7c346eb58ae9c000047
 
-Task:   You have to write a function pattern which returns the following
-        Pattern(See Pattern & Examples) upto n number of rows.
+Task:
 
-        If n < 1 then it should return "" i.e. empty string.
-        There are no whitespaces in the pattern.
+    You have to write a function pattern which returns the following
+    Pattern(See Pattern & Examples) upto n number of rows.
+
+    If n < 1 then it should return "" i.e. empty string.
+    There are no whitespaces in the pattern.
 
 Pattern:
 
