@@ -1,0 +1,31 @@
+// Source: interviewing.io - https://interviewing.io/recordings/Javascript-Google-4/
+
+Task 1:
+
+    Find if a string matches a pattern.
+
+    Given a string, and a regular expression pattern, return
+    true if the the string matches the pattern, return false
+    otherwise.
+
+Examples:
+
+    s: 'aba', p: 'ab'     =>  false // matches but extra 'a'
+				    // left over
+    s: 'aa',  p: 'a*'     =>  true
+    s: 'ab',  p: '.*'     =>  true
+    s: 'ab',  p: '.'      =>  false // matches first letter
+				    // but 'b' left over
+    s: 'aab', p: 'c*a*b'  =>  true
+    s: 'aaa', p: 'a*.'    =>  true
+    s: 'bbb', p: 'b*b'    =>  true
+
+Task 2:
+
+    Same as task 1 with constraint.
+
+Constraints:
+
+    A regular expression may not be used. In other words, you
+    much create your own regular expression search and evaluation
+    function.
