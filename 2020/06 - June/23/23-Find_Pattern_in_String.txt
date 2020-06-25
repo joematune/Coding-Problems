@@ -1,5 +1,5 @@
 // Source: interviewing.io - https://interviewing.io/recordings/Javascript-Google-4/
-			   - https://interviewing.io/recordings/Javascript-Google-19/
+			               - https://interviewing.io/recordings/Javascript-Google-19/
 
 Task 1:
 
@@ -12,11 +12,11 @@ Task 1:
 Examples:
 
     s: 'aba', p: 'ab'     =>  false // matches but extra 'a'
-				    // left over
+				                    // left over
     s: 'aa',  p: 'a*'     =>  true
     s: 'ab',  p: '.*'     =>  true
     s: 'ab',  p: '.'      =>  false // matches first letter
-				    // but 'b' left over
+				                    // but 'b' left over
     s: 'aab', p: 'c*a*b'  =>  true
     s: 'aaa', p: 'a*.'    =>  true
     s: 'bbb', p: 'b*b'    =>  true

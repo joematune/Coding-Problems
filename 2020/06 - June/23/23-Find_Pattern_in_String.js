@@ -2,19 +2,11 @@
 
 // Task 1 - My Solution 01
 
-// special characters:
-// -- . any character
-// -- * any number occurances of previous char
-
-// conditions:
-// -- string will only contain a-z && non-empty
-
 // const hasPattern = (string, pattern) => {
 //     return string.replace(RegExp(pattern), '').length === 0 ? true : false;
 // }
 
 // Task 1 - My Solution 02
-// --Note: Make my own RegEx subset
 
 const hasPattern = (string, pattern) => {
     notEmpty:
