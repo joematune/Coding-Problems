@@ -1,0 +1,22 @@
+// Source - Self-made
+
+Task 1:
+
+    Blah Blah
+
+Examples:
+
+    input: {
+        info: { phone: 10123456789, currency: 'R' },
+        'Halloumi Fries': { price: 120, quantity: 1 },
+        'Falafel Rainbow Bowl': { price: 100, quantity: 2 }
+    };
+    translation: `
+            [1x] Halloumi Fries - R120
+            [2x] Falafel Rainbow Bowl - R100
+            --------------------------
+            TOTAL: R320
+        `
+    output:
+
+        https://api.whatsapp.com/send?phone=0123456789&text=%5B1x%5D%20Haloumi%20Fries%20-%20R120%0A%5B2x%5D%20Falafel%20Rainbow%20Bowl%20-%20R100%0A--------------------------%0ATOTAL:%20R220
