@@ -1,0 +1,35 @@
+// Source - Self-made
+
+Task 1:
+
+    Given a group of three cards, determine if they are
+    a 'set'. The cards will be ojects, holding four
+    different categories. Each category must either be
+    different from the other two cards, or all three
+    must be the same.
+
+Examples:
+
+    input: [
+        Card {
+            shading: 0,
+            symbol: 1,
+            color: 0,
+            number: 2,
+        },
+        Card {
+            shading: 0,
+            symbol: 1,
+            color: 1,
+            number: 0,
+        },
+        Card {
+            shading: 0,
+            symbol: 1,
+            color: 2,
+            number: 1,
+        },
+    ]
+    
+    output: true
+    
