@@ -1,0 +1,48 @@
+// Source - Self-made
+
+Task 1:
+
+    Given a group of four categories, i.e., 'shading',
+    'symbol', 'color', and 'number', create a deck of
+    cards of every unique possibility.
+
+    Each card will be an instance of a SetCard class with properties having
+    respective names as each category. Each category
+    can have three different values. The deck will be
+    an array filled with each unique card object.
+
+Examples:
+
+    input:  
+        [
+            'shading',
+            'symbol',
+            'color',
+            'number',
+        ];
+
+    output:
+        [
+            SetCard {
+                shading: 0,
+                symbol: 1,
+                color: 0,
+                number: 2,
+            },
+            SetCard {
+                shading: 0,
+                symbol: 1,
+                color: 1,
+                number: 0,
+            },
+            SetCard {
+                shading: 0,
+                symbol: 1,
+                color: 2,
+                number: 1,
+            },
+            ...,
+            ...,
+            ...,
+        ]
+    
