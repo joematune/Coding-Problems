@@ -7,11 +7,10 @@ const categories = [
     'number',
 ];
 
-const areValuesSet = (a, b, c) => {
-    return (a === b && b === c) || (a !== b && a !== c && b !== c);
-}
-
 const isSet = ([card1, card2, card3]) => {
+    const areValuesSet = (a, b, c) => {
+        return (a === b && b === c) || (a !== b && a !== c && b !== c);
+    }
     for (let category of categories) {
         if (areValuesSet(card1[category], card2[category], card3[category])) {
             continue;
