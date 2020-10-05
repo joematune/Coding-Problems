@@ -1,0 +1,38 @@
+// Source - Self-made
+
+Task 1:
+
+    Given 12 random cards from a Set deck, forming theBoard
+    array, determine all of the possible combinations of
+    Sets that can be made. Create a solution array, called
+    theSets, with three element arrays as elements, each
+    containing the positions in theBoard array. A single
+    solution could appear like so: [0, 4, 2]
+
+Examples:
+
+    input:
+        [
+            SetCard {shading: 3, symbol: 2, color: 2, number: 2},
+            SetCard {shading: 1, symbol: 2, color: 3, number: 1},
+            SetCard {shading: 3, symbol: 3, color: 2, number: 3},
+            SetCard {shading: 1, symbol: 3, color: 2, number: 1},
+            SetCard {shading: 1, symbol: 1, color: 1, number: 1},
+            SetCard {shading: 3, symbol: 1, color: 1, number: 1},
+            SetCard {shading: 3, symbol: 3, color: 2, number: 1},
+            SetCard {shading: 1, symbol: 3, color: 1, number: 2},
+            SetCard {shading: 2, symbol: 2, color: 1, number: 3},
+            SetCard {shading: 2, symbol: 1, color: 3, number: 3},
+            SetCard {shading: 1, symbol: 2, color: 1, number: 3},
+            SetCard {shading: 3, symbol: 1, color: 3, number: 2}
+        ];
+
+    output:
+        [
+            [0, 1, 8],
+            [1, 3, 4],
+            [2, 9, 10],
+            [3, 8, 11],
+            [4, 7, 10],
+            [5, 7, 8]
+        ];
